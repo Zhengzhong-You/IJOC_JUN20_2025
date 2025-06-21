@@ -1,0 +1,72 @@
+application type: CVRP
+X-n313-k71_6_0_1_6_8_G8.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n313-k71
+obtain rcc coefficient time= 0.05 s.
+obtain r1c coefficient time= 1.45 s.
+obtain matrix from triplets time= 1.90 s.
+#########################################################################################
+tree size= 0 lb= 0 ub= 94044
+#########################################################################################
+idx= 17 value= 93996.2 enu= 1
+brc= 50-103 : -
+brc= 76-103 : -
+brc= 49-105 : -
+brc= 70-133 : -
+brc= 74-217 : -
+brc= 233-246 : -
+brc= 164-175 : +
+brc= 167-232 : +
+brc= 223-246 : -
+brc= 3-269 : +
+brc= 117-174 : -
+brc= 0-44 : -
+brc= 100-275 : -
+brc= 131-281 : -
+brc= 53-274 : -
+brc= 57-64 : -
+brc= 0-121 : +
+brc= 95-312 : -
+brc= 74-95 : -
+brc= 281-312 : -
+brc= 0-218 : -
+brc= 0-31 : -
+brc= 75-248 : -
+brc= 24-250 : -
+brc= 74-279 : -
+brc= 184-248 : +
+it= 7   ncol= 1531  ncstr= 657  mt= 0.4   spt= 0.3   lpval= 94016.2   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 6.98 s.
+-----------------------------------------------------------------------------------------
+delete columns= 524761 remain= 39334
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 1460  ncstr= 585  mt= 0.0   spt= 0.0   lpval= 94019.2   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 7.60 s.
+-----------------------------------------------------------------------------------------
+delete columns= 16451 remain= 22883
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 1424  ncstr= 610  mt= 0.0   spt= 0.0   lpval= 94021.0   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 8.09 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 6818 remain= 22883 col ratio= 0.70205 row ratio= 0.890164
+mip: row= 543 col= 17468 density= 4.40354%
+mip time= 15.94 s.
+mip status= 6
+update f from 0 to 21.9683
+#########################################################################################
+[32m<Instance: X-n313-k71>
+<Solution>
+<UB= 94043>
+<LB= 94043>
+<Elapsed Time= 24.1>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n313-k71_6_0_1_6_8_G8.node deleted successfully.

@@ -1,0 +1,61 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+VRPSolver v0.6.13, 22/08/2024, © Inria Bordeaux, France, vrpsolver.math.u-bordeaux.fr
+      Corresponds to the solver by Pessoa, Sadykov, Uchoa and Vanderbeck (2020)
+                 Paper: dx.doi.org/10.1007/s10107-020-01523-z
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   BaPCod v0.82.8, 22/08/2024, © Inria Bordeaux, France, bapcod.math.u-bordeaux.fr 
+           THIS CODE IS PROVIDED AS IS, USE IT AT YOUR OWN RISK
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RCSP solver info : symmetric case is detected for graph G_1! 
+Model is built TIME = 0h0m0s2t = 2
+************************************************************************************************
+**** BaB tree root node
+**** Local DB = -1e+12, global bounds : [ -1e+12 , 678 ], TIME = 0h0m0s2t = 2
+**** 1 open nodes, 0 columns (0 active), 0 dyn. constrs. (0 active), 90 art. vars. (90 active)
+************************************************************************************************
+<DWph=2> <it= 10> <et=0.04> <Mt= 0.00> <Spt= 0.01> <nCl=300> <DB=-656372.3847> <Mlp=49492.4812> <PB=678> 
+<DWph=2> <it= 20> <et=0.06> <Mt= 0.00> <Spt= 0.01> <nCl=300> <DB=-270732.4899> <Mlp= 4171.1268> <PB=678> 
+<DWph=2> <it= 30> <et=0.08> <Mt= 0.01> <Spt= 0.01> <nCl=277> <DB=-4337.6527> <Mlp=  903.6006> <PB=678> 
+<DWph=2> <it= 40> <et=0.10> <Mt= 0.00> <Spt= 0.02> <nCl=293> <DB= -157.0693> <Mlp=  670.7982> <PB=678> 
+<DWph=2> <it= 50> <et=0.11> <Mt= 0.01> <Spt= 0.01> <nCl=165> <DB=  476.8447> <Mlp=  656.7884> <PB=678> 
+<DWph=2> <it= 60> <et=0.13> <Mt= 0.00> <Spt= 0.01> <nCl= 86> <DB=  617.7519> <Mlp=  655.0562> <PB=678> 
+<DWph=2> <it= 61> <et=0.13> <Mt= 0.00> <Spt= 0.00> <nCl=  2> <DB=  655.0562> <Mlp=  655.0562> <PB=678> 
+<DWph=1> <it= 66> <et=0.15> <Mt= 0.00> <Spt= 0.02> <nCl= 49> <DB=  653.6955> <Mlp=  653.6955> <PB=678> 
+<DWph=0> <it= 69> <et=0.19> <Mt= 0.00> <Spt= 0.04> <nCl=258> <DB=  653.2635> <Mlp=  653.2635> <PB=678> 
+Reduced cost fixing for graph G_1...  TT = 0.033945, pt = 0.007417, dt = 0.026458, ct = 0, ndl = 23577', bdl = 249253', odl = 4077', odf = 82505', lpcb = 477297', cnt = 584637', bdch = 6386441', odch = 816035', lcp = 602886'
+took 0.03 sec., 25453 buck. arcs remain (62.5% from prev., 53% from max.)
+Run enumeration... took 0.59 sec. and not succeeded.
+ColGenEvalAlg final dual bound: 653.264 (rounded: 654)
+----- Add fac. cuts : CAP(48), max.viol = 0.894737, aver.viol = 0.198257, sep/add took 0.00325879/0.0156289 sec. -----
+1730 columns (1730 active), 48 dyn. constrs. (48 active), 138 art. vars. (138 active)
+<DWph=2> <it= 10> <et=0.88> <Mt= 0.01> <Spt= 0.02> <nCl=156> <DB=  673.7190> <Mlp=  676.6761> <PB=678> 
+<DWph=2> <it= 16> <et=0.89> <Mt= 0.01> <Spt= 0.01> <nCl= 67> <DB=  676.1401> <Mlp=  676.1401> <PB=678> 
+<DWph=1> <it= 20> <et=0.90> <Mt= 0.00> <Spt= 0.00> <nCl= 56> <DB=  643.8103> <Mlp=  675.2531> <PB=678> 
+<DWph=1> <it= 24> <et=0.92> <Mt= 0.00> <Spt= 0.02> <nCl= 11> <DB=  675.1787> <Mlp=  675.1787> <PB=678> 
+<DWph=0> <it= 26> <et=0.94> <Mt= 0.00> <Spt= 0.02> <nCl= 97> <DB=  675.1753> <Mlp=  675.1753> <PB=678> 
+Reduced cost fixing for graph G_1...  TT = 0.005513, pt = 0.002813, dt = 0.002637, ct = 0, ndl = 9044', bdl = 64905', odl = 1050', odf = 17119', lpcb = 110851', cnt = 27036', bdch = 745487', odch = 81535', lcp = 73232'
+took 0 sec., 6506 buck. arcs remain (25.6% from prev., 13.6% from max.)
+Run enumeration... took 0 sec. and succeeded! 
+ColGenEvalAlg final dual bound: 675.175 (rounded: 676)
+Gap improvement since the last cut separation : 0.88581 (653.264)
+----- Terminating the node by MIP -----
+************************************************************************************************
+Search is finished, global bounds : [ 678 , 678 ], TIME = 0h0m0s99t = 99
+************************************************************************************************
+Statistics :
+        best lower bound : 678.0 
+        
+        solution time : 0.9961155700000001
+        
+        number of nodes : 1
+        
+        solution value : 0.0
+
+        root lower bound : 678.0
+
+        root root time : 0.995784762.
+        
+Status : 2.
+
+Message : Better solution doesn't exist..
+

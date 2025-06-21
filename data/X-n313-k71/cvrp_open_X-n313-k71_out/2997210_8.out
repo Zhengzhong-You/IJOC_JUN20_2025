@@ -1,0 +1,64 @@
+application type: CVRP
+X-n313-k71_2_11_0_1_1_2_1_G8.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n313-k71
+obtain rcc coefficient time= 0.08 s.
+obtain r1c coefficient time= 1.04 s.
+obtain matrix from triplets time= 1.48 s.
+#########################################################################################
+tree size= 0 lb= 0 ub= 94044
+#########################################################################################
+idx= 3 value= 93996.9 enu= 1
+brc= 50-103 : -
+brc= 76-103 : -
+brc= 49-105 : +
+brc= 164-295 : -
+brc= 62-296 : -
+brc= 126-152 : -
+brc= 109-138 : -
+brc= 57-130 : -
+brc= 0-64 : -
+brc= 3-269 : -
+brc= 33-228 : -
+brc= 24-250 : -
+brc= 70-121 : -
+brc= 62-182 : -
+brc= 36-142 : +
+brc= 75-303 : +
+brc= 95-279 : -
+brc= 28-126 : +
+brc= 3-128 : -
+brc= 72-295 : +
+brc= 141-164 : -
+brc= 74-260 : -
+brc= 260-312 : +
+brc= 6-60 : -
+brc= 208-224 : +
+it= 5   ncol= 1520  ncstr= 557  mt= 0.2   spt= 0.2   lpval= 94022.7   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 5.68 s.
+-----------------------------------------------------------------------------------------
+delete columns= 519085 remain= 12787
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 1343  ncstr= 559  mt= 0.0   spt= 0.0   lpval= 94027.8   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 6.16 s.
+-----------------------------------------------------------------------------------------
+delete columns= 7180 remain= 5607
+mip: row= 512 col= 6869 density= 4.12027%
+mip time= 2.90 s.
+mip status= 6
+update f from 0 to 15.1574
+#########################################################################################
+[32m<Instance: X-n313-k71>
+<Solution>
+<UB= 94043>
+<LB= 94043>
+<Elapsed Time= 9.1>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n313-k71_2_11_0_1_1_2_1_G8.node deleted successfully.

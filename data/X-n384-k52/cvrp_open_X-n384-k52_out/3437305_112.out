@@ -1,0 +1,77 @@
+application type: CVRP
+X-n384-k52_1_1_3_0_0_1_1_1_2_G8.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n384-k52
+obtain rcc coefficient time= 0.03 s.
+obtain r1c coefficient time= 1.32 s.
+obtain matrix from triplets time= 0.78 s.
+#########################################################################################
+tree size= 0 lb= 0 ub= 65929
+#########################################################################################
+idx= 5 value= 65872.9 enu= 1
+brc= 264-365 : -
+brc= 77-229 : +
+brc= 158-295 : -
+brc= 222-330 : +
+brc= 23-330 : -
+brc= 45-199 : -
+brc= 23-381 : -
+brc= 142-323 : +
+brc= 175-375 : +
+brc= 224-231 : +
+brc= 27-69 : -
+brc= 59-148 : +
+brc= 239-286 : -
+brc= 149-351 : +
+brc= 119-302 : -
+brc= 46-330 : +
+brc= 157-180 : -
+brc= 122-328 : -
+brc= 275-378 : +
+it= 11  ncol= 3354  ncstr= 1958 mt= 8.2   spt= 0.4   lpval= 65901.0   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 16.89 s.
+-----------------------------------------------------------------------------------------
+delete columns= 525144 remain= 45560
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 5   ncol= 3364  ncstr= 1343 mt= 1.8   spt= 0.0   lpval= 65905.5   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 21.63 s.
+-----------------------------------------------------------------------------------------
+delete columns= 18428 remain= 27132
+ ****** Separate Rank1Cuts ****** 
+it= 5   ncol= 3369  ncstr= 1379 mt= 0.8   spt= 0.0   lpval= 65907.4   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 25.40 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 5295 remain= 27132 col ratio= 0.804843 row ratio= 0.915881
+ ****** Separate Rank1Cuts ****** 
+it= 5   ncol= 3367  ncstr= 1470 mt= 0.7   spt= 0.0   lpval= 65909.0   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 28.92 s.
+-----------------------------------------------------------------------------------------
+delete columns= 8844 remain= 18288
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 3374  ncstr= 1432 mt= 0.3   spt= 0.0   lpval= 65909.8   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 31.82 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 1894 remain= 18288 col ratio= 0.896435 row ratio= 0.909218
+[1;36m[REMIND] 2: gap improved= 0.726774 ratio= 0.039859 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n384-k52/src/main/src/call_cutting.cpp:74[0m
+mip: row= 1302 col= 19745 density= 2.08983%
+mip time= 62.13 s.
+mip status= 6
+update f from 0 to 18.2338
+#########################################################################################
+[32m<Instance: X-n384-k52>
+<Solution>
+<UB= 65928>
+<LB= 65928>
+<Elapsed Time= 97.7>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n384-k52_1_1_3_0_0_1_1_1_2_G8.node deleted successfully.

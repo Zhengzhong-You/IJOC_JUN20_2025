@@ -1,0 +1,128 @@
+application type: VRPTW
+Set parameter Username
+Set parameter LicenseID to value 2664851
+Academic license - for non-commercial use only - expires 2026-05-14
+Set parameter Threads to value 1
+instance name= R1_2_1
+VRPTW MODE= CAP_MAIN_RESOURCE
+#########################################################################################
+tree size= 0 lb= 0 ub= 4667.2
+#########################################################################################
+idx= 0 value= 0 enu= 0
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 30  ncol= 1503  ncstr= 201  mt= 0.2   spt= 0.2   lpval= 5520.4    ub= 4667.2   
+it= 60  ncol= 2403  ncstr= 201  mt= 0.6   spt= 0.2   lpval= 4821.2    ub= 4667.2   
+it= 90  ncol= 3298  ncstr= 201  mt= 0.4   spt= 0.2   lpval= 4677.8    ub= 4667.2   
+it= 113 ncol= 3768  ncstr= 201  mt= 0.1   spt= 0.1   lpval= 4668.3    ub= 4667.2   
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 30  ncol= 3847  ncstr= 201  mt= 0.1   spt= 0.3   lpval= 4654.9    ub= 4667.2   
+it= 37  ncol= 3863  ncstr= 201  mt= 0.0   spt= 0.1   lpval= 4654.9    ub= 4667.2   
+ ****** Pricing Level: EXACT ****** 
+it= 1   ncol= 3863  ncstr= 201  mt= 0.0   spt= 0.0   lpval= 4654.9    ub= 4667.2   
+-----------------------------------------------------------------------------------------
+elapsed time= 3.21 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Run Arc Elimination ****** 
+arc elimination time= 0.00 s.
+previous= 1.45361% maximum= 1.45361%
+previous= 1.47381% maximum= 1.47381%
+eliminate bucket arcs time= 0.06 s.
+obtain jump arcs time= 0.00 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+elapsed time= 3.33 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+DSSR: 0
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 14  ncol= 4515  ncstr= 201  mt= 0.2   spt= 0.0   lpval= 4654.8    ub= 4667.2   
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 21  ncol= 4220  ncstr= 201  mt= 0.0   spt= 0.0   lpval= 4654.9    ub= 4667.2   
+ ****** Pricing Level: EXACT ****** 
+it= 1   ncol= 4220  ncstr= 201  mt= 0.0   spt= 0.0   lpval= 4654.9    ub= 4667.2   
+-----------------------------------------------------------------------------------------
+elapsed time= 3.77 s.
+-----------------------------------------------------------------------------------------
+[1;36m[REMIND] arc memory is used due to long route length in function callCutting at /home/yzz/RouteOpt/packages/application/cvrp/src/main/src/call_cutting.cpp:399[0m
+ ****** Separate RCCs ****** 
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 9   ncol= 4706  ncstr= 204  mt= 0.3   spt= 0.0   lpval= 4655.0    ub= 4667.2   
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 20  ncol= 4376  ncstr= 204  mt= 0.0   spt= 0.0   lpval= 4655.0    ub= 4667.2   
+ ****** Pricing Level: EXACT ****** 
+it= 1   ncol= 4376  ncstr= 204  mt= 0.0   spt= 0.0   lpval= 4655.0    ub= 4667.2   
+-----------------------------------------------------------------------------------------
+elapsed time= 4.22 s.
+-----------------------------------------------------------------------------------------
+[1;36m[REMIND] 1: gap improved= 0.087500 threshold= 0.100000 in function increaseCondition1 at /home/yzz/RouteOpt/packages/application/cvrp/src/main/src/call_cutting.cpp:58[0m
+[1;36m[REMIND] tail off counter= 3 threshold= 3 in function setIfTailOff at /home/yzz/RouteOpt/packages/application/cvrp/src/main/src/call_cutting.cpp:137[0m
+ ****** Separate Rank1Cuts ****** 
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 19  ncol= 5143  ncstr= 248  mt= 0.5   spt= 0.0   lpval= 4664.2    ub= 4667.2   
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 15  ncol= 4765  ncstr= 248  mt= 0.1   spt= 0.0   lpval= 4664.2    ub= 4667.2   
+ ****** Pricing Level: EXACT ****** 
+it= 6   ncol= 4800  ncstr= 248  mt= 0.0   spt= 0.0   lpval= 4664.2    ub= 4667.2   
+-----------------------------------------------------------------------------------------
+elapsed time= 5.04 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Run Arc Elimination ****** 
+arc elimination time= 0.00 s.
+previous= 41.8096% maximum= 0.60775%
+previous= 41.971% maximum= 0.618574%
+eliminate bucket arcs time= 0.01 s.
+obtain jump arcs time= 0.00 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+elapsed time= 5.06 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Try Enumeration ****** 
+#labels= 5845 #routes= 1460
+labeling 1 time= 0.00 s.
+#labels= 2765 #routes= 1460
+labeling 2 time= 0.00 s.
+concatenate time= 0.00 s.
+#routes= 17730
+average gap of successful enumeration= 0.0006285
+next try value > 4661.93
+-----------------------------------------------------------------------------------------
+elapsed time= 5.08 s.
+-----------------------------------------------------------------------------------------
+ ****** Process Enumeration Matrix ****** 
+delete non-ele routes lp val= 4664.17
+after delete 0 res-cap infeasible columns, lp val= 4664.17
+recover rank1c lp val= 4664.17
+recover rcc lp val= 4664.17
+obtain rcc coefficient time= 0.00 s.
+obtain r1c coefficient time= 0.00 s.
+obtain matrix from triplets time= 0.00 s.
+delete columns by branch time= 0.00 s.
+regenerate enumeration matrix time= 0.00 s.
+-----------------------------------------------------------------------------------------
+elapsed time= 5.14 s.
+-----------------------------------------------------------------------------------------
+it= 2   ncol= 4822  ncstr= 248  mt= 0.0   spt= 0.0   lpval= 4664.2    ub= 4667.2   
+-----------------------------------------------------------------------------------------
+elapsed time= 5.14 s.
+-----------------------------------------------------------------------------------------
+delete columns= 14636 remain= 3094
+mip: row= 210 col= 4036 density= 4.95222%
+mip time= 0.08 s.
+mip status= 6
+update f from 0 to 3.03333
+#########################################################################################
+[32m<Instance: R1_2_1>
+<Solution>
+<UB= 4667.2>
+<LB= 4667.2>
+<Elapsed Time= 5.2>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################

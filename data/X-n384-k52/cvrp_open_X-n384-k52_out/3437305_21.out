@@ -1,0 +1,89 @@
+application type: CVRP
+X-n384-k52_0_1_1_0_0_1_1_0_1_0_1_G8.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n384-k52
+obtain rcc coefficient time= 0.06 s.
+obtain r1c coefficient time= 1.32 s.
+obtain matrix from triplets time= 0.60 s.
+#########################################################################################
+tree size= 0 lb= 0 ub= 65929
+#########################################################################################
+idx= 3 value= 65873.5 enu= 1
+brc= 264-365 : +
+brc= 23-381 : -
+brc= 185-192 : +
+brc= 7-180 : -
+brc= 176-199 : +
+brc= 0-305 : +
+brc= 7-370 : +
+brc= 158-295 : -
+brc= 7-171 : +
+brc= 9-293 : -
+brc= 0-299 : +
+brc= 39-308 : +
+brc= 133-272 : -
+brc= 284-295 : +
+brc= 0-107 : +
+brc= 133-226 : -
+brc= 119-302 : +
+it= 9   ncol= 2879  ncstr= 1658 mt= 4.4   spt= 0.3   lpval= 65895.2   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 13.67 s.
+-----------------------------------------------------------------------------------------
+delete columns= 496904 remain= 84953
+ ****** Separate Rank1Cuts ****** 
+it= 5   ncol= 2944  ncstr= 1372 mt= 1.5   spt= 0.0   lpval= 65902.4   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 19.42 s.
+-----------------------------------------------------------------------------------------
+delete columns= 45438 remain= 39515
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 4   ncol= 2954  ncstr= 1400 mt= 0.8   spt= 0.0   lpval= 65905.3   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 28.01 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 11153 remain= 39515 col ratio= 0.717753 row ratio= 0.904286
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 5   ncol= 2975  ncstr= 1536 mt= 0.8   spt= 0.0   lpval= 65907.8   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 33.05 s.
+-----------------------------------------------------------------------------------------
+delete columns= 17984 remain= 21531
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 2951  ncstr= 1421 mt= 0.5   spt= 0.0   lpval= 65908.5   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 41.10 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 2117 remain= 21531 col ratio= 0.901677 row ratio= 0.944405
+[1;36m[REMIND] 2: gap improved= 0.681308 ratio= 0.034876 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n384-k52/src/main/src/call_cutting.cpp:74[0m
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 2976  ncstr= 1526 mt= 0.4   spt= 0.0   lpval= 65909.3   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 45.18 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 4085 remain= 21531 col ratio= 0.810274 row ratio= 0.907602
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 2977  ncstr= 1624 mt= 0.3   spt= 0.0   lpval= 65910.0   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 48.94 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 5553 remain= 21531 col ratio= 0.742093 row ratio= 0.881773
+[1;36m[REMIND] 2: gap improved= 0.660604 ratio= 0.036713 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n384-k52/src/main/src/call_cutting.cpp:74[0m
+mip: row= 1432 col= 18941 density= 2.03632%
+mip time= 85.09 s.
+mip status= 6
+update f from 0 to 17.9936
+#########################################################################################
+[32m<Instance: X-n384-k52>
+<Solution>
+<UB= 65928>
+<LB= 65928>
+<Elapsed Time= 134.1>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n384-k52_0_1_1_0_0_1_1_0_1_0_1_G8.node deleted successfully.

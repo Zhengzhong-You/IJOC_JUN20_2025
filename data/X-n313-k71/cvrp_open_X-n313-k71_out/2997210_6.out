@@ -1,0 +1,63 @@
+application type: CVRP
+X-n313-k71_2_0_1_0_0_10_4_G8.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n313-k71
+obtain rcc coefficient time= 0.34 s.
+obtain r1c coefficient time= 0.94 s.
+obtain matrix from triplets time= 1.91 s.
+#########################################################################################
+tree size= 0 lb= 0 ub= 94044
+#########################################################################################
+idx= 9 value= 93997.7 enu= 1
+brc= 50-103 : -
+brc= 76-103 : -
+brc= 49-105 : +
+brc= 164-295 : +
+brc= 221-228 : -
+brc= 62-68 : +
+brc= 126-152 : +
+brc= 95-281 : +
+brc= 19-115 : -
+brc= 18-224 : -
+brc= 56-175 : -
+brc= 3-115 : -
+brc= 78-176 : -
+brc= 0-295 : -
+brc= 125-224 : -
+brc= 141-175 : -
+brc= 18-189 : -
+brc= 224-289 : -
+brc= 162-208 : +
+brc= 64-128 : -
+brc= 23-118 : -
+brc= 0-118 : -
+brc= 189-226 : -
+brc= 7-33 : +
+it= 5   ncol= 1987  ncstr= 602  mt= 0.3   spt= 0.2   lpval= 94025.0   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 6.44 s.
+-----------------------------------------------------------------------------------------
+delete columns= 499206 remain= 10316
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 1575  ncstr= 581  mt= 0.1   spt= 0.0   lpval= 94026.7   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 7.35 s.
+-----------------------------------------------------------------------------------------
+delete columns= 3681 remain= 6635
+mip: row= 517 col= 8101 density= 4.44034%
+mip time= 4.37 s.
+mip status= 6
+update f from 0 to 16.295
+#########################################################################################
+[32m<Instance: X-n313-k71>
+<Solution>
+<UB= 94043>
+<LB= 94043>
+<Elapsed Time= 12.1>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n313-k71_2_0_1_0_0_10_4_G8.node deleted successfully.

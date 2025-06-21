@@ -1,0 +1,53 @@
+application type: CVRP
+X-n313-k71_1_3_1_2_2_G8.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n313-k71
+obtain rcc coefficient time= 0.14 s.
+obtain r1c coefficient time= 1.10 s.
+obtain matrix from triplets time= 1.74 s.
+#########################################################################################
+tree size= 0 lb= 0 ub= 94044
+#########################################################################################
+idx= 5 value= 93997.1 enu= 1
+brc= 50-103 : -
+brc= 76-103 : +
+brc= 57-64 : -
+brc= 62-68 : -
+brc= 221-228 : -
+brc= 0-57 : +
+brc= 164-295 : -
+brc= 62-296 : +
+brc= 4-64 : -
+brc= 223-227 : -
+brc= 64-128 : +
+brc= 32-51 : -
+brc= 6-237 : -
+brc= 71-306 : +
+it= 4   ncol= 1648  ncstr= 633  mt= 0.5   spt= 0.2   lpval= 94019.9   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 6.15 s.
+-----------------------------------------------------------------------------------------
+delete columns= 485040 remain= 20204
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 4   ncol= 1509  ncstr= 599  mt= 0.0   spt= 0.0   lpval= 94022.5   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 6.69 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 6474 remain= 20204 col ratio= 0.679568 row ratio= 0.926544
+mip: row= 555 col= 15203 density= 4.36722%
+mip time= 6.66 s.
+mip status= 6
+update f from 0 to 20.4582
+#########################################################################################
+[32m<Instance: X-n313-k71>
+<Solution>
+<UB= 94043>
+<LB= 94043>
+<Elapsed Time= 13.4>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n313-k71_1_3_1_2_2_G8.node deleted successfully.

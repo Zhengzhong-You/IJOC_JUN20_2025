@@ -1,0 +1,82 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+VRPSolver v0.6.13, 22/08/2024, © Inria Bordeaux, France, vrpsolver.math.u-bordeaux.fr
+      Corresponds to the solver by Pessoa, Sadykov, Uchoa and Vanderbeck (2020)
+                 Paper: dx.doi.org/10.1007/s10107-020-01523-z
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   BaPCod v0.82.8, 22/08/2024, © Inria Bordeaux, France, bapcod.math.u-bordeaux.fr 
+           THIS CODE IS PROVIDED AS IS, USE IT AT YOUR OWN RISK
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RCSP solver info : symmetric case is detected for graph G_1! 
+Model is built TIME = 0h0m0s0t = 0
+************************************************************************************************
+**** BaB tree root node
+**** Local DB = -1e+12, global bounds : [ -1e+12 , 603 ], TIME = 0h0m0s0t = 0
+**** 1 open nodes, 0 columns (0 active), 0 dyn. constrs. (0 active), 44 art. vars. (44 active)
+************************************************************************************************
+<DWph=2> <it= 10> <et=0.01> <Mt= 0.00> <Spt= 0.00> <nCl=178> <DB=-7676.4233> <Mlp=  667.0000> <PB=603> 
+<DWph=2> <it= 16> <et=0.01> <Mt= 0.00> <Spt= 0.00> <nCl= 64> <DB=  589.6667> <Mlp=  589.6667> <PB=603> 
+<DWph=1> <it= 17> <et=0.01> <Mt= 0.00> <Spt= 0.00> <nCl=  0> <DB=  589.6667> <Mlp=  589.6667> <PB=603> 
+<DWph=0> <it= 18> <et=0.02> <Mt= 0.00> <Spt= 0.01> <nCl=101> <DB=  589.6667> <Mlp=  589.6667> <PB=603> 
+Reduced cost fixing for graph G_1...  TT = 0.000626, pt = 0.000148, dt = 0.000401, ct = 0, ndl = 340', bdl = 668', odl = 326', odf = 2850', lpcb = 1542', cnt = 158', bdch = 2348', odch = 1621', lcp = 291'
+took 0 sec., 1493 buck. arcs remain (32.3% from prev., 19.1% from max.)
+Run enumeration... took 0.01 sec. and succeeded! 
+ColGenEvalAlg final dual bound: 589.667 (rounded: 590)
+----- Terminating the node by MIP -----
+MIP found solution with value 590
+New model incumbent solution 590, TIME = 0h0m0s4t = 4
+************************************************************************************************
+Search is finished, global bounds : [ 590 , 590 ], TIME = 0h0m0s4t = 4
+************************************************************************************************
+Statistics :
+        best lower bound : 590.0 
+        
+        solution time : 0.042387737
+        
+        number of nodes : 1
+        
+        solution value : 590.0
+
+        root lower bound : 590.0
+
+        root root time : 0.04224691.
+        
+Status : 0.
+
+Message : The solution found is optimal..
+
+Vehicle Type id : 1.
+Ids : [0, 19, 0].
+Load : [0.0, 2500.0, 2500.0].
+
+Vehicle Type id : 1.
+Ids : [0, 16, 0].
+Load : [0.0, 2100.0, 2100.0].
+
+Vehicle Type id : 1.
+Ids : [0, 5, 9, 0].
+Load : [0.0, 2100.0, 2600.0, 2600.0].
+
+Vehicle Type id : 1.
+Ids : [0, 6, 1, 2, 7, 0].
+Load : [0.0, 400.0, 1500.0, 2200.0, 3000.0, 3000.0].
+
+Vehicle Type id : 1.
+Ids : [0, 14, 20, 21, 0].
+Load : [0.0, 300.0, 2100.0, 2800.0, 2800.0].
+
+Vehicle Type id : 1.
+Ids : [0, 11, 13, 0].
+Load : [0.0, 1200.0, 2500.0, 2500.0].
+
+Vehicle Type id : 1.
+Ids : [0, 17, 18, 15, 0].
+Load : [0.0, 1000.0, 1900.0, 2800.0, 2800.0].
+
+Vehicle Type id : 1.
+Ids : [0, 4, 3, 8, 10, 0].
+Load : [0.0, 1400.0, 2200.0, 2300.0, 2900.0, 2900.0].
+
+Vehicle Type id : 1.
+Ids : [0, 12, 0].
+Load : [0.0, 1300.0, 1300.0].
+

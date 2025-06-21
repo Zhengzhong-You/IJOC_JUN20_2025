@@ -1,0 +1,57 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+VRPSolver v0.6.13, 22/08/2024, © Inria Bordeaux, France, vrpsolver.math.u-bordeaux.fr
+      Corresponds to the solver by Pessoa, Sadykov, Uchoa and Vanderbeck (2020)
+                 Paper: dx.doi.org/10.1007/s10107-020-01523-z
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   BaPCod v0.82.8, 22/08/2024, © Inria Bordeaux, France, bapcod.math.u-bordeaux.fr 
+           THIS CODE IS PROVIDED AS IS, USE IT AT YOUR OWN RISK
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RCSP solver info : symmetric case is detected for graph G_1! 
+Model is built TIME = 0h0m0s2t = 2
+************************************************************************************************
+**** BaB tree root node
+**** Local DB = -1e+12, global bounds : [ -1e+12 , 549 ], TIME = 0h0m0s2t = 2
+**** 1 open nodes, 0 columns (0 active), 0 dyn. constrs. (0 active), 78 art. vars. (78 active)
+************************************************************************************************
+<DWph=2> <it= 10> <et=0.04> <Mt= 0.00> <Spt= 0.01> <nCl=300> <DB=-705728.2300> <Mlp=39441.9436> <PB=549> 
+<DWph=2> <it= 20> <et=0.05> <Mt= 0.00> <Spt= 0.01> <nCl=300> <DB=-241694.1169> <Mlp=10452.1947> <PB=549> 
+<DWph=2> <it= 30> <et=0.07> <Mt= 0.01> <Spt= 0.01> <nCl=296> <DB=-4781.3496> <Mlp= 1041.1415> <PB=549> 
+<DWph=2> <it= 40> <et=0.08> <Mt= 0.00> <Spt= 0.01> <nCl=297> <DB=  250.6560> <Mlp=  627.0072> <PB=549> 
+<DWph=2> <it= 50> <et=0.10> <Mt= 0.01> <Spt= 0.01> <nCl=249> <DB=  509.2239> <Mlp=  536.5766> <PB=549> 
+<DWph=2> <it= 57> <et=0.11> <Mt= 0.00> <Spt= 0.01> <nCl=118> <DB=  530.0529> <Mlp=  530.9265> <PB=549> 
+<DWph=1> <it= 60> <et=0.12> <Mt= 0.00> <Spt= 0.01> <nCl= 49> <DB=  506.2176> <Mlp=  529.6481> <PB=549> 
+<DWph=1> <it= 66> <et=0.14> <Mt= 0.00> <Spt= 0.01> <nCl= 54> <DB=  528.7357> <Mlp=  528.7357> <PB=549> 
+<DWph=0> <it= 70> <et=0.20> <Mt= 0.00> <Spt= 0.07> <nCl=526> <DB=  522.7376> <Mlp=  522.7376> <PB=549> 
+Reduced cost fixing for graph G_1...  TT = 0.039882, pt = 0.005794, dt = 0.033992, ct = 0, ndl = 30344', bdl = 201857', odl = 4866', odf = 116075', lpcb = 556181', cnt = 1399564', bdch = 8257739', odch = 2022577', lcp = 1578643'
+took 0.03 sec., 13826 buck. arcs remain (44.1% from prev., 38.3% from max.)
+Run enumeration... took 0.6 sec. and not succeeded.
+ColGenEvalAlg final dual bound: 522.738 (rounded: 523)
+----- Add fac. cuts : CAP(39), max.viol = 0.738065, aver.viol = 0.274782, sep/add took 0.00214849/0.0151907 sec. -----
+2189 columns (2189 active), 39 dyn. constrs. (39 active), 117 art. vars. (117 active)
+<DWph=2> <it= 10> <et=0.89> <Mt= 0.01> <Spt= 0.00> <nCl=182> <DB=  547.8171> <Mlp=  550.2558> <PB=549> 
+<DWph=2> <it= 16> <et=0.90> <Mt= 0.01> <Spt= 0.01> <nCl= 58> <DB=  549.7648> <Mlp=  549.7648> <PB=549> 
+<DWph=1> <it= 20> <et=0.91> <Mt= 0.00> <Spt= 0.01> <nCl= 41> <DB=  546.3377> <Mlp=  549.4797> <PB=549> 
+<DWph=1> <it= 21> <et=0.91> <Mt= 0.00> <Spt= 0.00> <nCl=  5> <DB=  549.4797> <Mlp=  549.4797> <PB=549> 
+<DWph=0> <it= 26> <et=0.98> <Mt= 0.00> <Spt= 0.06> <nCl=332> <DB=  548.2557> <Mlp=  548.2557> <PB=549> 
+ColGenEvalAlg final dual bound: 548.256 (rounded: 549)
+Gap improvement since the last cut separation : 0.971659 (522.738)
+************************************************************************************************
+Search is finished, global bounds : [ 549 , 549 ], TIME = 0h0m0s98t = 98
+************************************************************************************************
+Statistics :
+        best lower bound : 549.0 
+        
+        solution time : 0.983980877
+        
+        number of nodes : 1
+        
+        solution value : 0.0
+
+        root lower bound : 549.0
+
+        root root time : 0.983829745.
+        
+Status : 2.
+
+Message : Better solution doesn't exist..
+

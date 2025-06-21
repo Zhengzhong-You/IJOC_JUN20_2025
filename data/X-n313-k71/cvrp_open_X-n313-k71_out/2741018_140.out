@@ -1,0 +1,142 @@
+application type: CVRP
+X-n313-k71_2_0_0_1_2_2_8_2_4_G32.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n313-k71
+#########################################################################################
+tree size= 0 lb= 0 ub= 94044
+#########################################################################################
+idx= 9 value= 94003.2 enu= 0
+brc= 50-103 : -
+brc= 76-103 : -
+brc= 49-105 : +
+brc= 164-295 : +
+brc= 221-228 : +
+brc= 0-57 : -
+brc= 211-295 : +
+brc= 270-279 : -
+brc= 0-121 : -
+brc= 147-174 : +
+brc= 74-252 : -
+brc= 18-224 : -
+brc= 190-217 : +
+brc= 18-189 : -
+brc= 207-230 : -
+brc= 2-230 : -
+brc= 43-290 : -
+brc= 3-269 : -
+brc= 64-128 : -
+brc= 137-150 : -
+brc= 106-202 : -
+brc= 62-68 : +
+brc= 207-269 : -
+brc= 18-278 : -
+brc= 125-171 : +
+brc= 174-277 : -
+brc= 74-280 : -
+brc= 236-266 : -
+brc= 257-278 : -
+brc= 95-279 : +
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 7   ncol= 1304  ncstr= 616  mt= 0.3   spt= 0.2   lpval= 94011.8   ub= 94044.0  
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 4   ncol= 1354  ncstr= 616  mt= 0.1   spt= 0.2   lpval= 94011.7   ub= 94044.0  
+ ****** Pricing Level: EXACT ****** 
+it= 5   ncol= 1471  ncstr= 616  mt= 0.0   spt= 3.6   lpval= 94011.7   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 7.95 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Run Arc Elimination ****** 
+arc elimination time= 2.01 s.
+previous= 78.4994% maximum= 1.81348%
+eliminate bucket arcs time= 0.33 s.
+obtain jump arcs time= 0.01 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+elapsed time= 10.63 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Try Enumeration ****** 
+#labels= 106781 #routes= 5
+labeling 1 time= 1.31 s.
+concatenate time= 1.50 s.
+#routes= 85382
+average gap of successful enumeration= 0.000333298
+next try value > 93995.9
+-----------------------------------------------------------------------------------------
+elapsed time= 13.52 s.
+-----------------------------------------------------------------------------------------
+ ****** Process Enumeration Matrix ****** 
+delete non-ele routes lp val= 94011.7
+recover rank1c lp val= 94012.3
+recover rcc lp val= 94013.2
+obtain rcc coefficient time= 0.02 s.
+obtain r1c coefficient time= 0.12 s.
+obtain matrix from triplets time= 0.09 s.
+delete columns by branch time= 0.00 s.
+columns pending deletion= 211 remain= 85382 col ratio= 0.997529 row ratio= 1
+regenerate enumeration matrix time= 0.00 s.
+-----------------------------------------------------------------------------------------
+elapsed time= 15.44 s.
+-----------------------------------------------------------------------------------------
+it= 4   ncol= 1342  ncstr= 568  mt= 0.0   spt= 0.0   lpval= 94013.1   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 15.51 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 25507 remain= 85382 col ratio= 0.70126 row ratio= 0.917254
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 4   ncol= 1309  ncstr= 641  mt= 0.1   spt= 0.0   lpval= 94017.3   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 16.21 s.
+-----------------------------------------------------------------------------------------
+delete columns= 56107 remain= 29275
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 1337  ncstr= 617  mt= 0.0   spt= 0.0   lpval= 94018.4   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 16.94 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 6366 remain= 29275 col ratio= 0.782545 row ratio= 0.896272
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 2   ncol= 1328  ncstr= 675  mt= 0.0   spt= 0.0   lpval= 94019.0   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 17.47 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 8233 remain= 29275 col ratio= 0.71877 row ratio= 0.845926
+[1;36m[REMIND] 2: gap improved= 0.629571 ratio= 0.025192 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n313-k71/src/main/src/call_cutting.cpp:74[0m
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 1352  ncstr= 717  mt= 0.1   spt= 0.0   lpval= 94019.4   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 18.16 s.
+-----------------------------------------------------------------------------------------
+delete columns= 9647 remain= 19628
+[1;36m[REMIND] 2: gap improved= 0.350265 ratio= 0.014215 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n313-k71/src/main/src/call_cutting.cpp:74[0m
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 2   ncol= 1365  ncstr= 628  mt= 0.0   spt= 0.0   lpval= 94019.7   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 19.13 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 1278 remain= 19628 col ratio= 0.934889 row ratio= 0.91242
+[1;36m[REMIND] 2: gap improved= 0.345148 ratio= 0.014206 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n313-k71/src/main/src/call_cutting.cpp:74[0m
+[1;36m[REMIND] tail off counter= 3 threshold= 3 in function setIfTailOff at /blue/yu.yang1/you.z/route_opt/packages/application/X-n313-k71/src/main/src/call_cutting.cpp:150[0m
+mip: row= 573 col= 19685 density= 5.21164%
+mip time= 70.38 s.
+mip status= 6
+update f from 0 to 24.2953
+#########################################################################################
+[32m<Instance: X-n313-k71>
+<Solution>
+<UB= 94044>
+<LB= 94044>
+<Elapsed Time= 90>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n313-k71_2_0_0_1_2_2_8_2_4_G32.node deleted successfully.

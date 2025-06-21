@@ -1,0 +1,65 @@
+application type: CVRP
+X-n359-k29_2_5_0_4_2_G32.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n359-k29
+#########################################################################################
+tree size= 0 lb= 0 ub= 51506
+#########################################################################################
+idx= 5 value= 51462.7 enu= 0
+brc= 73-316 : -
+brc= 8-153 : -
+brc= 39-90 : +
+brc= 0-111 : -
+brc= 37-166 : -
+brc= 73-149 : -
+brc= 88-117 : -
+brc= 151-166 : -
+brc= 0-153 : +
+brc= 73-303 : +
+brc= 42-193 : -
+brc= 33-334 : -
+brc= 266-332 : -
+brc= 229-251 : -
+brc= 82-88 : +
+brc= 85-111 : -
+brc= 37-98 : -
+brc= 85-110 : +
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 30  ncol= 4974  ncstr= 933  mt= 10.1  spt= 3.2   lpval= 51466.6   ub= 51506.0  
+it= 31  ncol= 4974  ncstr= 933  mt= 0.0   spt= 0.1   lpval= 51466.6   ub= 51506.0  
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 25  ncol= 5540  ncstr= 933  mt= 8.8   spt= 5.6   lpval= 51466.5   ub= 51506.0  
+ ****** Pricing Level: EXACT ****** 
+it= 8   ncol= 7797  ncstr= 933  mt= 5.3   spt= 80.2  lpval= 51465.6   ub= 51506.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 137.47 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Run Arc Elimination ****** 
+arc elimination time= 8.68 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+elapsed time= 146.64 s.
+-----------------------------------------------------------------------------------------
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 9   ncol= 7910  ncstr= 1000 mt= 2.0   spt= 1.2   lpval= 51470.6   ub= 51506.0  
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 5   ncol= 7955  ncstr= 1000 mt= 0.3   spt= 1.2   lpval= 51470.6   ub= 51506.0  
+ ****** Pricing Level: EXACT ****** 
+it= 6   ncol= 8670  ncstr= 1000 mt= 2.9   spt= 67.7  lpval= 51468.9   ub= 51506.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 240.73 s.
+-----------------------------------------------------------------------------------------
+[1;36m[REMIND] eps= 78.648037 tail off hard time= 60.000000 in function setIfTailOff at /blue/yu.yang1/you.z/route_opt/packages/application/X-n359-k29/src/main/src/call_cutting.cpp:140[0m
+[1;36m[REMIND] opt_k not found for node 5, use m directly in function getOptK at /blue/yu.yang1/you.z/route_opt/packages/branching/bkf/include/bkf_controller.hpp:239[0m
+current_r_best= 4.47303
+we directly test 100
+we directly test 4
+pseudo= 50 frac= 50
+#candidates in phase1= 100

@@ -1,0 +1,125 @@
+application type: CVRP
+X-n313-k71_6_0_3_0_0_0_2_3_G32.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n313-k71
+#########################################################################################
+tree size= 0 lb= 0 ub= 94044
+#########################################################################################
+idx= 7 value= 93987.6 enu= 0
+brc= 50-103 : -
+brc= 76-103 : -
+brc= 49-105 : -
+brc= 70-133 : -
+brc= 74-217 : -
+brc= 233-246 : -
+brc= 164-175 : +
+brc= 167-232 : +
+brc= 223-246 : -
+brc= 3-269 : -
+brc= 128-150 : -
+brc= 0-57 : +
+brc= 108-218 : +
+brc= 0-121 : +
+brc= 61-107 : +
+brc= 211-239 : -
+brc= 18-118 : -
+brc= 88-124 : +
+brc= 102-133 : -
+brc= 131-281 : -
+brc= 19-115 : -
+brc= 239-264 : +
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 9   ncol= 1641  ncstr= 579  mt= 0.2   spt= 0.2   lpval= 94028.4   ub= 94043.0  
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 5   ncol= 1705  ncstr= 579  mt= 0.1   spt= 0.3   lpval= 94006.6   ub= 94043.0  
+ ****** Pricing Level: EXACT ****** 
+it= 3   ncol= 1745  ncstr= 579  mt= 0.0   spt= 2.6   lpval= 94006.3   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 6.97 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Run Arc Elimination ****** 
+arc elimination time= 2.12 s.
+previous= 60.0726% maximum= 1.95526%
+eliminate bucket arcs time= 0.40 s.
+obtain jump arcs time= 0.01 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+elapsed time= 9.83 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Try Enumeration ****** 
+#labels= 112138 #routes= 27
+labeling 1 time= 1.40 s.
+concatenate time= 2.14 s.
+#routes= 128584
+average gap of successful enumeration= 0.00037972
+next try value > 93987.3
+-----------------------------------------------------------------------------------------
+elapsed time= 13.45 s.
+-----------------------------------------------------------------------------------------
+ ****** Process Enumeration Matrix ****** 
+delete non-ele routes lp val= 94011.2
+recover rank1c lp val= 94011.5
+recover rcc lp val= 94012.4
+obtain rcc coefficient time= 0.01 s.
+obtain r1c coefficient time= 0.20 s.
+obtain matrix from triplets time= 0.17 s.
+delete columns by branch time= 0.00 s.
+columns pending deletion= 76 remain= 128584 col ratio= 0.999409 row ratio= 1
+regenerate enumeration matrix time= 0.00 s.
+-----------------------------------------------------------------------------------------
+elapsed time= 15.24 s.
+-----------------------------------------------------------------------------------------
+it= 4   ncol= 1466  ncstr= 536  mt= 0.0   spt= 0.0   lpval= 94011.4   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 15.31 s.
+-----------------------------------------------------------------------------------------
+delete columns= 74063 remain= 54521
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 1388  ncstr= 535  mt= 0.0   spt= 0.0   lpval= 94015.9   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 15.99 s.
+-----------------------------------------------------------------------------------------
+delete columns= 27906 remain= 26615
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 1388  ncstr= 598  mt= 0.0   spt= 0.0   lpval= 94017.5   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 16.62 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 5061 remain= 26615 col ratio= 0.809844 row ratio= 0.851171
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 4   ncol= 1392  ncstr= 672  mt= 0.0   spt= 0.0   lpval= 94018.0   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 17.22 s.
+-----------------------------------------------------------------------------------------
+delete columns= 7309 remain= 19306
+[1;36m[REMIND] 2: gap improved= 0.474774 ratio= 0.018971 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n313-k71/src/main/src/call_cutting.cpp:74[0m
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 1418  ncstr= 553  mt= 0.0   spt= 0.0   lpval= 94018.4   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 18.06 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 1759 remain= 19306 col ratio= 0.908888 row ratio= 0.942134
+[1;36m[REMIND] 2: gap improved= 0.396194 ratio= 0.016086 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n313-k71/src/main/src/call_cutting.cpp:74[0m
+mip: row= 521 col= 18937 density= 4.45733%
+mip time= 16.45 s.
+mip status= 6
+update f from 0 to 24.63
+#########################################################################################
+[32m<Instance: X-n313-k71>
+<Solution>
+<UB= 94043>
+<LB= 94043>
+<Elapsed Time= 34.6>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n313-k71_6_0_3_0_0_0_2_3_G32.node deleted successfully.

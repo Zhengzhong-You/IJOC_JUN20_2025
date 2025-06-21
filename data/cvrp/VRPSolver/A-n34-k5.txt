@@ -1,0 +1,60 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+VRPSolver v0.6.13, 22/08/2024, © Inria Bordeaux, France, vrpsolver.math.u-bordeaux.fr
+      Corresponds to the solver by Pessoa, Sadykov, Uchoa and Vanderbeck (2020)
+                 Paper: dx.doi.org/10.1007/s10107-020-01523-z
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   BaPCod v0.82.8, 22/08/2024, © Inria Bordeaux, France, bapcod.math.u-bordeaux.fr 
+           THIS CODE IS PROVIDED AS IS, USE IT AT YOUR OWN RISK
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RCSP solver info : symmetric case is detected for graph G_1! 
+Model is built TIME = 0h0m0s3t = 3
+************************************************************************************************
+**** BaB tree root node
+**** Local DB = -1e+12, global bounds : [ -1e+12 , 778 ], TIME = 0h0m0s3t = 3
+**** 1 open nodes, 0 columns (0 active), 0 dyn. constrs. (0 active), 68 art. vars. (68 active)
+************************************************************************************************
+<DWph=2> <it= 10> <et=0.07> <Mt= 0.00> <Spt= 0.03> <nCl=300> <DB=-393517.7986> <Mlp=39697.3800> <PB=778> 
+<DWph=2> <it= 20> <et=0.08> <Mt= 0.01> <Spt= 0.01> <nCl=295> <DB= -443.9061> <Mlp= 1073.2120> <PB=778> 
+<DWph=2> <it= 30> <et=0.10> <Mt= 0.00> <Spt= 0.01> <nCl=262> <DB=  373.4389> <Mlp=  784.5507> <PB=778> 
+<DWph=2> <it= 40> <et=0.11> <Mt= 0.00> <Spt= 0.00> <nCl=130> <DB=  561.3976> <Mlp=  744.1034> <PB=778> 
+<DWph=2> <it= 48> <et=0.12> <Mt= 0.00> <Spt= 0.01> <nCl= 58> <DB=  742.0238> <Mlp=  742.0238> <PB=778> 
+<DWph=1> <it= 50> <et=0.12> <Mt= 0.01> <Spt= 0.00> <nCl= 26> <DB=  687.8306> <Mlp=  741.8372> <PB=778> 
+<DWph=1> <it= 51> <et=0.12> <Mt= 0.00> <Spt= 0.01> <nCl=  5> <DB=  741.8363> <Mlp=  741.8363> <PB=778> 
+<DWph=0> <it= 54> <et=0.14> <Mt= 0.00> <Spt= 0.01> <nCl=111> <DB=  741.7931> <Mlp=  741.7931> <PB=778> 
+Reduced cost fixing for graph G_1...  TT = 0.005302, pt = 0.00112, dt = 0.00413, ct = 0, ndl = 5583', bdl = 39426', odl = 2571', odf = 30883', lpcb = 80167', cnt = 45988', bdch = 432153', odch = 90064', lcp = 53551'
+took 0 sec., 13497 buck. arcs remain (59.2% from prev., 50% from max.)
+Run enumeration... took 0.09 sec. and succeeded! 
+<DWph=2> <it= 55> <et=0.26> <Mt= 0.00> <Spt= 0.00> <nCl=  0> <DB=  742.6667> <Mlp=  742.6667> <PB=778> 
+<DWph=1> <it= 56> <et=0.26> <Mt= 0.00> <Spt= 0.00> <nCl=  0> <DB=  742.6667> <Mlp=  742.6667> <PB=778> 
+<DWph=0> <it= 59> <et=0.27> <Mt= 0.00> <Spt= 0.01> <nCl=249> <DB=  742.5088> <Mlp=  742.5088> <PB=778> 
+Reduced cost fixing for graph G_1...  took 0 sec., done by inspection with 41496 solutions, remains 28197 (68%)
+ColGenEvalAlg final dual bound: 742.509 (rounded: 743)
+----- Add fac. cuts : CAP(31), max.viol = 0.736842, aver.viol = 0.445954, sep/add took 0.00133116/0.00525324 sec. -----
+687 columns (687 active), 31 dyn. constrs. (31 active), 99 art. vars. (99 active)
+<DWph=2> <it=  1> <et=0.28> <Mt= 0.00> <Spt= 0.00> <nCl=  0> <DB=  798.0086> <Mlp=  798.0086> <PB=778> 
+<DWph=1> <it=  2> <et=0.28> <Mt= 0.00> <Spt= 0.00> <nCl=  0> <DB=  798.0086> <Mlp=  798.0086> <PB=778> 
+<DWph=0> <it=  7> <et=0.29> <Mt= 0.00> <Spt= 0.01> <nCl=321> <DB=  770.1875> <Mlp=  770.1875> <PB=778> 
+Reduced cost fixing for graph G_1...  took 0 sec., done by inspection with 28197 solutions, remains 727 (2.58%)
+ColGenEvalAlg final dual bound: 770.188 (rounded: 771)
+Gap improvement since the last cut separation : 0.779875 (742.509)
+----- Terminating the node by MIP -----
+************************************************************************************************
+Search is finished, global bounds : [ 778 , 778 ], TIME = 0h0m0s36t = 36
+************************************************************************************************
+Statistics :
+        best lower bound : 778.0 
+        
+        solution time : 0.36756952499999995
+        
+        number of nodes : 1
+        
+        solution value : 0.0
+
+        root lower bound : 778.0
+
+        root root time : 0.36716287999999997.
+        
+Status : 2.
+
+Message : Better solution doesn't exist..
+

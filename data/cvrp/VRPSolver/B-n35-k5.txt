@@ -1,0 +1,59 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+VRPSolver v0.6.13, 22/08/2024, © Inria Bordeaux, France, vrpsolver.math.u-bordeaux.fr
+      Corresponds to the solver by Pessoa, Sadykov, Uchoa and Vanderbeck (2020)
+                 Paper: dx.doi.org/10.1007/s10107-020-01523-z
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   BaPCod v0.82.8, 22/08/2024, © Inria Bordeaux, France, bapcod.math.u-bordeaux.fr 
+           THIS CODE IS PROVIDED AS IS, USE IT AT YOUR OWN RISK
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RCSP solver info : symmetric case is detected for graph G_1! 
+Model is built TIME = 0h0m0s0t = 0
+************************************************************************************************
+**** BaB tree root node
+**** Local DB = -1e+12, global bounds : [ -1e+12 , 955 ], TIME = 0h0m0s0t = 0
+**** 1 open nodes, 0 columns (0 active), 0 dyn. constrs. (0 active), 70 art. vars. (70 active)
+************************************************************************************************
+<DWph=2> <it= 10> <et=0.01> <Mt= 0.00> <Spt= 0.00> <nCl=300> <DB=-806682.9057> <Mlp=59226.1181> <PB=955> 
+<DWph=2> <it= 20> <et=0.02> <Mt= 0.00> <Spt= 0.01> <nCl=300> <DB=-394351.7101> <Mlp=17244.4757> <PB=955> 
+<DWph=2> <it= 30> <et=0.04> <Mt= 0.00> <Spt= 0.01> <nCl=297> <DB=  264.3860> <Mlp= 1343.8667> <PB=955> 
+<DWph=2> <it= 40> <et=0.05> <Mt= 0.01> <Spt= 0.01> <nCl=282> <DB=  842.9307> <Mlp=  888.4280> <PB=955> 
+<DWph=2> <it= 49> <et=0.06> <Mt= 0.00> <Spt= 0.01> <nCl=109> <DB=  874.8750> <Mlp=  874.8750> <PB=955> 
+<DWph=1> <it= 50> <et=0.07> <Mt= 0.00> <Spt= 0.00> <nCl= 21> <DB=  809.8750> <Mlp=  874.8750> <PB=955> 
+<DWph=1> <it= 56> <et=0.08> <Mt= 0.00> <Spt= 0.02> <nCl= 45> <DB=  868.2500> <Mlp=  868.2500> <PB=955> 
+<DWph=0> <it= 58> <et=0.09> <Mt= 0.00> <Spt= 0.01> <nCl=193> <DB=  868.0833> <Mlp=  868.0833> <PB=955> 
+Reduced cost fixing for graph G_1...  TT = 0.013308, pt = 0.001508, dt = 0.011749, ct = 0, ndl = 8447', bdl = 120978', odl = 4347', odf = 53264', lpcb = 64667', cnt = 206272', bdch = 2140469', odch = 232454', lcp = 151837'
+took 0.01 sec., 20499 buck. arcs remain (83.6% from prev., 71.4% from max.)
+Run enumeration... took 0.36 sec. and not succeeded.
+ColGenEvalAlg final dual bound: 868.083 (rounded: 869)
+----- Add fac. cuts : CAP(15), max.viol = 0.75, aver.viol = 0.527778, sep/add took 0.00057712/0.0045375 sec. -----
+1547 columns (1547 active), 15 dyn. constrs. (15 active), 85 art. vars. (85 active)
+<DWph=2> <it= 10> <et=0.50> <Mt= 0.01> <Spt= 0.00> <nCl=118> <DB=  948.7048> <Mlp=  953.1336> <PB=955> 
+<DWph=2> <it= 16> <et=0.51> <Mt= 0.00> <Spt= 0.01> <nCl= 48> <DB=  952.5852> <Mlp=  952.5852> <PB=955> 
+<DWph=1> <it= 20> <et=0.52> <Mt= 0.00> <Spt= 0.01> <nCl= 47> <DB=  946.8776> <Mlp=  951.5714> <PB=955> 
+<DWph=1> <it= 21> <et=0.52> <Mt= 0.00> <Spt= 0.00> <nCl=  2> <DB=  951.5714> <Mlp=  951.5714> <PB=955> 
+<DWph=0> <it= 23> <et=0.53> <Mt= 0.01> <Spt= 0.01> <nCl= 84> <DB=  951.5714> <Mlp=  951.5714> <PB=955> 
+Reduced cost fixing for graph G_1...  TT = 0.001112, pt = 0.000408, dt = 0.000665, ct = 0, ndl = 1745', bdl = 10150', odl = 1023', odf = 15160', lpcb = 20436', cnt = 2137', bdch = 63318', odch = 15858', lcp = 6659'
+took 0 sec., 4465 buck. arcs remain (21.8% from prev., 15.6% from max.)
+Run enumeration... took 0 sec. and succeeded! 
+ColGenEvalAlg final dual bound: 951.571 (rounded: 952)
+----- Terminating the node by MIP -----
+************************************************************************************************
+Search is finished, global bounds : [ 955 , 955 ], TIME = 0h0m0s56t = 56
+************************************************************************************************
+Statistics :
+        best lower bound : 955.0 
+        
+        solution time : 0.5655397839999999
+        
+        number of nodes : 1
+        
+        solution value : 0.0
+
+        root lower bound : 955.0
+
+        root root time : 0.565328193.
+        
+Status : 2.
+
+Message : Better solution doesn't exist..
+

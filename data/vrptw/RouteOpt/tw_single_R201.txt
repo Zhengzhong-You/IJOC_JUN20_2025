@@ -1,0 +1,147 @@
+application type: VRPTW
+Set parameter Username
+Set parameter LicenseID to value 2664851
+Academic license - for non-commercial use only - expires 2026-05-14
+Set parameter Threads to value 1
+instance name= R201
+VRPTW MODE= SINGLE_RESOURCE
+#########################################################################################
+tree size= 0 lb= 0 ub= 1143.2
+#########################################################################################
+idx= 0 value= 0 enu= 0
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 30  ncol= 1203  ncstr= 101  mt= 0.1   spt= 0.0   lpval= 1473.3    ub= 1143.2   
+it= 60  ncol= 2103  ncstr= 101  mt= 0.2   spt= 0.0   lpval= 1392.1    ub= 1143.2   
+it= 90  ncol= 3003  ncstr= 101  mt= 0.3   spt= 0.0   lpval= 1219.9    ub= 1143.2   
+it= 120 ncol= 3903  ncstr= 101  mt= 0.2   spt= 0.0   lpval= 1166.0    ub= 1143.2   
+it= 150 ncol= 4766  ncstr= 101  mt= 0.1   spt= 0.0   lpval= 1148.1    ub= 1143.2   
+it= 162 ncol= 4881  ncstr= 101  mt= 0.0   spt= 0.0   lpval= 1147.3    ub= 1143.2   
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 30  ncol= 4944  ncstr= 101  mt= 0.1   spt= 0.0   lpval= 1143.0    ub= 1143.2   
+it= 60  ncol= 5472  ncstr= 101  mt= 0.1   spt= 0.0   lpval= 1141.9    ub= 1143.2   
+it= 64  ncol= 5479  ncstr= 101  mt= 0.0   spt= 0.0   lpval= 1141.9    ub= 1143.2   
+ ****** Pricing Level: EXACT ****** 
+it= 30  ncol= 7102  ncstr= 101  mt= 0.1   spt= 0.1   lpval= 1135.8    ub= 1143.2   
+it= 45  ncol= 7116  ncstr= 101  mt= 0.0   spt= 0.0   lpval= 1135.8    ub= 1143.2   
+-----------------------------------------------------------------------------------------
+elapsed time= 2.28 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Run Arc Elimination ****** 
+arc elimination time= 0.00 s.
+previous= 1.1756% maximum= 1.1756%
+previous= 1.19503% maximum= 1.19503%
+eliminate bucket arcs time= 0.01 s.
+obtain jump arcs time= 0.00 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+elapsed time= 2.31 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+DSSR: 0
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 17  ncol= 7592  ncstr= 101  mt= 0.2   spt= 0.0   lpval= 1130.6    ub= 1143.2   
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 18  ncol= 7502  ncstr= 101  mt= 0.1   spt= 0.0   lpval= 1131.0    ub= 1143.2   
+ ****** Pricing Level: EXACT ****** 
+it= 30  ncol= 7762  ncstr= 101  mt= 0.1   spt= 0.0   lpval= 1130.0    ub= 1143.2   
+it= 41  ncol= 7785  ncstr= 101  mt= 0.0   spt= 0.0   lpval= 1129.9    ub= 1143.2   
+-----------------------------------------------------------------------------------------
+elapsed time= 2.85 s.
+-----------------------------------------------------------------------------------------
+delete ng-infeasible routes lp val= 1147.5
+-----------------------------------------------------------------------------------------
+DSSR: 1
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 19  ncol= 4480  ncstr= 101  mt= 0.2   spt= 0.0   lpval= 1141.2    ub= 1143.2   
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 30  ncol= 4482  ncstr= 101  mt= 0.1   spt= 0.0   lpval= 1140.5    ub= 1143.2   
+it= 33  ncol= 4484  ncstr= 101  mt= 0.0   spt= 0.0   lpval= 1140.5    ub= 1143.2   
+ ****** Pricing Level: EXACT ****** 
+it= 20  ncol= 4738  ncstr= 101  mt= 0.0   spt= 0.0   lpval= 1139.9    ub= 1143.2   
+-----------------------------------------------------------------------------------------
+elapsed time= 3.31 s.
+-----------------------------------------------------------------------------------------
+NG Augmentation: 0
+delete ng-infeasible routes lp val= 1141.12
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 14  ncol= 4597  ncstr= 101  mt= 0.2   spt= 0.0   lpval= 1140.9    ub= 1143.2   
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 22  ncol= 4480  ncstr= 101  mt= 0.1   spt= 0.0   lpval= 1140.8    ub= 1143.2   
+ ****** Pricing Level: EXACT ****** 
+it= 30  ncol= 4683  ncstr= 101  mt= 0.1   spt= 0.0   lpval= 1140.3    ub= 1143.2   
+it= 41  ncol= 4701  ncstr= 101  mt= 0.0   spt= 0.0   lpval= 1140.3    ub= 1143.2   
+-----------------------------------------------------------------------------------------
+elapsed time= 3.76 s.
+-----------------------------------------------------------------------------------------
+NG Augmentation: 1
+[1;36m[REMIND] no small cycles are found! in function findNGMemorySets at /home/yzz/RouteOpt/packages/application/cvrp/src/main/src/call_dynamic_ng.cpp:71[0m
+ ****** Separate Rank1Cuts ****** 
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 18  ncol= 5147  ncstr= 122  mt= 0.3   spt= 0.0   lpval= 1142.6    ub= 1143.2   
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 20  ncol= 4976  ncstr= 122  mt= 0.1   spt= 0.0   lpval= 1142.6    ub= 1143.2   
+ ****** Pricing Level: EXACT ****** 
+it= 14  ncol= 5284  ncstr= 122  mt= 0.0   spt= 0.0   lpval= 1142.3    ub= 1143.2   
+-----------------------------------------------------------------------------------------
+elapsed time= 4.37 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Run Arc Elimination ****** 
+arc elimination time= 0.00 s.
+previous= 34.9967% maximum= 0.411422%
+previous= 34.8179% maximum= 0.416084%
+eliminate bucket arcs time= 0.00 s.
+obtain jump arcs time= 0.00 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+elapsed time= 4.38 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Try Enumeration ****** 
+#labels= 614 #routes= 0
+labeling 1 time= 0.00 s.
+#labels= 3232 #routes= 0
+labeling 2 time= 0.00 s.
+concatenate time= 0.00 s.
+#routes= 17496
+average gap of successful enumeration= 0.000699791
+next try value > 1141.83
+-----------------------------------------------------------------------------------------
+elapsed time= 4.40 s.
+-----------------------------------------------------------------------------------------
+ ****** Process Enumeration Matrix ****** 
+delete non-ele routes lp val= 1142.31
+after delete 0 res-cap infeasible columns, lp val= 1142.31
+recover rank1c lp val= 1142.64
+obtain rcc coefficient time= 0.00 s.
+obtain r1c coefficient time= 0.00 s.
+obtain matrix from triplets time= 0.00 s.
+delete columns by branch time= 0.00 s.
+regenerate enumeration matrix time= 0.00 s.
+-----------------------------------------------------------------------------------------
+elapsed time= 4.44 s.
+-----------------------------------------------------------------------------------------
+it= 5   ncol= 2258  ncstr= 122  mt= 0.0   spt= 0.0   lpval= 1142.5    ub= 1143.2   
+-----------------------------------------------------------------------------------------
+elapsed time= 4.45 s.
+-----------------------------------------------------------------------------------------
+delete columns= 14654 remain= 2842
+mip: row= 109 col= 3309 density= 18.2993%
+mip time= 0.03 s.
+mip status= 6
+update f from 0 to 0.73
+#########################################################################################
+[32m<Instance: R201>
+<Solution>
+<UB= 1143.2>
+<LB= 1143.2>
+<Elapsed Time= 4.5>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################

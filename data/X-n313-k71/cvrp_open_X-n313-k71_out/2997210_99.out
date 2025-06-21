@@ -1,0 +1,69 @@
+application type: CVRP
+X-n313-k71_6_0_3_17_G8.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n313-k71
+obtain rcc coefficient time= 0.30 s.
+obtain r1c coefficient time= 1.52 s.
+obtain matrix from triplets time= 2.62 s.
+#########################################################################################
+tree size= 0 lb= 0 ub= 94044
+#########################################################################################
+idx= 35 value= 93997.1 enu= 1
+brc= 50-103 : -
+brc= 76-103 : -
+brc= 49-105 : -
+brc= 70-133 : -
+brc= 74-217 : -
+brc= 233-246 : -
+brc= 164-175 : +
+brc= 167-232 : +
+brc= 223-246 : -
+brc= 3-269 : -
+brc= 128-150 : -
+brc= 0-57 : +
+brc= 108-218 : -
+brc= 142-152 : -
+brc= 0-121 : -
+brc= 113-167 : -
+brc= 261-305 : -
+brc= 90-110 : -
+brc= 3-137 : -
+brc= 125-224 : -
+brc= 30-79 : -
+brc= 74-260 : -
+brc= 53-274 : -
+brc= 131-281 : -
+brc= 81-183 : -
+brc= 2-106 : -
+brc= 75-303 : -
+brc= 117-174 : -
+brc= 9-128 : -
+brc= 19-106 : +
+it= 6   ncol= 1341  ncstr= 641  mt= 0.4   spt= 0.3   lpval= 94022.7   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 8.00 s.
+-----------------------------------------------------------------------------------------
+delete columns= 606986 remain= 13498
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 4   ncol= 1245  ncstr= 635  mt= 0.0   spt= 0.0   lpval= 94030.9   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 8.62 s.
+-----------------------------------------------------------------------------------------
+delete columns= 9848 remain= 3650
+mip: row= 526 col= 4814 density= 3.93809%
+mip time= 1.39 s.
+mip status= 6
+update f from 0 to 12.1374
+#########################################################################################
+[32m<Instance: X-n313-k71>
+<Solution>
+<UB= 94043>
+<LB= 94043>
+<Elapsed Time= 10.3>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n313-k71_6_0_3_17_G8.node deleted successfully.

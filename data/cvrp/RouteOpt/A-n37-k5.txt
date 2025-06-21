@@ -1,0 +1,94 @@
+application type: CVRP
+Set parameter Username
+Set parameter LicenseID to value 2664851
+Academic license - for non-commercial use only - expires 2026-05-14
+Set parameter Threads to value 1
+instance name= A-n37-k5
+#########################################################################################
+tree size= 0 lb= 0 ub= 669
+#########################################################################################
+idx= 0 value= 0 enu= 0
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 30  ncol= 937   ncstr= 37   mt= 0.0   spt= 0.0   lpval= 1088.0    ub= 669.0    
+it= 60  ncol= 1829  ncstr= 37   mt= 0.0   spt= 0.0   lpval= 668.8     ub= 669.0    
+it= 72  ncol= 1990  ncstr= 37   mt= 0.0   spt= 0.0   lpval= 659.8     ub= 669.0    
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 5   ncol= 2003  ncstr= 37   mt= 0.0   spt= 0.0   lpval= 659.7     ub= 669.0    
+ ****** Pricing Level: EXACT ****** 
+it= 4   ncol= 2099  ncstr= 37   mt= 0.0   spt= 0.0   lpval= 657.8     ub= 669.0    
+-----------------------------------------------------------------------------------------
+elapsed time= 0.58 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Run Arc Elimination ****** 
+arc elimination time= 0.00 s.
+previous= 11.3858% maximum= 11.3858%
+eliminate bucket arcs time= 0.01 s.
+obtain jump arcs time= 0.00 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+elapsed time= 0.59 s.
+-----------------------------------------------------------------------------------------
+[1;36m[REMIND] arc memory is used due to long route length in function callCutting at /home/yzz/RouteOpt/packages/application/cvrp/src/main/src/call_cutting.cpp:399[0m
+ ****** Separate RCCs ****** 
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 7   ncol= 2146  ncstr= 47   mt= 0.0   spt= 0.0   lpval= 664.9     ub= 669.0    
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 2   ncol= 2149  ncstr= 47   mt= 0.0   spt= 0.0   lpval= 664.9     ub= 669.0    
+ ****** Pricing Level: EXACT ****** 
+it= 2   ncol= 2159  ncstr= 47   mt= 0.0   spt= 0.0   lpval= 664.0     ub= 669.0    
+-----------------------------------------------------------------------------------------
+elapsed time= 0.62 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Run Arc Elimination ****** 
+arc elimination time= 0.00 s.
+previous= 56.3807% maximum= 6.41941%
+eliminate bucket arcs time= 0.00 s.
+obtain jump arcs time= 0.00 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+elapsed time= 0.62 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Try Enumeration ****** 
+#labels= 758 #routes= 9
+labeling 1 time= 0.00 s.
+concatenate time= 0.00 s.
+#routes= 335
+average gap of successful enumeration= 0.00597907
+next try value > 664.5
+-----------------------------------------------------------------------------------------
+elapsed time= 0.64 s.
+-----------------------------------------------------------------------------------------
+ ****** Process Enumeration Matrix ****** 
+delete non-ele routes lp val= 664
+recover rcc lp val= 664.909
+obtain rcc coefficient time= 0.00 s.
+obtain r1c coefficient time= 0.00 s.
+obtain matrix from triplets time= 0.00 s.
+delete columns by branch time= 0.00 s.
+regenerate enumeration matrix time= 0.00 s.
+-----------------------------------------------------------------------------------------
+elapsed time= 0.64 s.
+-----------------------------------------------------------------------------------------
+it= 2   ncol= 614   ncstr= 47   mt= 0.0   spt= 0.0   lpval= 664.9     ub= 669.0    
+-----------------------------------------------------------------------------------------
+elapsed time= 0.64 s.
+-----------------------------------------------------------------------------------------
+delete columns= 198 remain= 137
+mip: row= 40 col= 233 density= 29.7639%
+mip time= 0.00 s.
+mip status= 6
+update f from 0 to 4.09091
+#########################################################################################
+[32m<Instance: A-n37-k5>
+<Solution>
+<UB= 669>
+<LB= 669>
+<Elapsed Time= 0.6>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################

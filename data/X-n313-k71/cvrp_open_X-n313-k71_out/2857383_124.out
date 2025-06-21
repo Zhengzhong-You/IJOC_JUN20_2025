@@ -1,0 +1,125 @@
+application type: CVRP
+X-n313-k71_3_1_0_1_0_0_7_1_0_G32.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n313-k71
+#########################################################################################
+tree size= 0 lb= 0 ub= 94044
+#########################################################################################
+idx= 1 value= 94000.5 enu= 0
+brc= 50-103 : -
+brc= 76-103 : -
+brc= 49-105 : -
+brc= 70-133 : +
+brc= 164-295 : -
+brc= 24-250 : +
+brc= 0-57 : +
+brc= 74-252 : -
+brc= 270-279 : +
+brc= 233-263 : +
+brc= 165-280 : +
+brc= 130-302 : -
+brc= 10-161 : -
+brc= 23-88 : -
+brc= 13-104 : -
+brc= 162-208 : -
+brc= 162-189 : -
+brc= 74-278 : -
+brc= 0-59 : +
+brc= 30-79 : -
+brc= 0-257 : +
+brc= 64-130 : +
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 9   ncol= 1290  ncstr= 650  mt= 0.3   spt= 0.2   lpval= 94014.8   ub= 94043.0  
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 6   ncol= 1371  ncstr= 650  mt= 0.2   spt= 0.4   lpval= 94012.8   ub= 94043.0  
+ ****** Pricing Level: EXACT ****** 
+it= 3   ncol= 1449  ncstr= 650  mt= 0.1   spt= 3.3   lpval= 94012.7   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 8.31 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Run Arc Elimination ****** 
+arc elimination time= 2.39 s.
+previous= 70.3207% maximum= 1.76948%
+eliminate bucket arcs time= 0.41 s.
+obtain jump arcs time= 0.01 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+elapsed time= 11.45 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Try Enumeration ****** 
+#labels= 82758 #routes= 9
+labeling 1 time= 0.89 s.
+concatenate time= 1.08 s.
+#routes= 69308
+average gap of successful enumeration= 0.000312011
+next try value > 93995.2
+-----------------------------------------------------------------------------------------
+elapsed time= 13.49 s.
+-----------------------------------------------------------------------------------------
+ ****** Process Enumeration Matrix ****** 
+delete non-ele routes lp val= 94013.1
+recover rank1c lp val= 94013.5
+recover rcc lp val= 94014.9
+obtain rcc coefficient time= 0.04 s.
+obtain r1c coefficient time= 0.10 s.
+obtain matrix from triplets time= 0.09 s.
+delete columns by branch time= 0.00 s.
+columns pending deletion= 243 remain= 69308 col ratio= 0.996494 row ratio= 1
+regenerate enumeration matrix time= 0.00 s.
+-----------------------------------------------------------------------------------------
+elapsed time= 15.58 s.
+-----------------------------------------------------------------------------------------
+it= 4   ncol= 1249  ncstr= 602  mt= 0.0   spt= 0.0   lpval= 94014.7   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 15.64 s.
+-----------------------------------------------------------------------------------------
+delete columns= 24315 remain= 44993
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 4   ncol= 1199  ncstr= 596  mt= 0.1   spt= 0.0   lpval= 94018.3   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 16.24 s.
+-----------------------------------------------------------------------------------------
+delete columns= 18763 remain= 26230
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 4   ncol= 1200  ncstr= 671  mt= 0.1   spt= 0.0   lpval= 94019.3   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 17.00 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 4472 remain= 26230 col ratio= 0.829508 row ratio= 0.853949
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 4   ncol= 1197  ncstr= 692  mt= 0.0   spt= 0.0   lpval= 94019.9   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 17.51 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 6926 remain= 26230 col ratio= 0.735951 row ratio= 0.82948
+[1;36m[REMIND] 2: gap improved= 0.668262 ratio= 0.028953 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n313-k71/src/main/src/call_cutting.cpp:74[0m
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 4   ncol= 1218  ncstr= 732  mt= 0.1   spt= 0.0   lpval= 94020.4   ub= 94043.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 18.07 s.
+-----------------------------------------------------------------------------------------
+delete columns= 8510 remain= 17720
+[1;36m[REMIND] 2: gap improved= 0.471773 ratio= 0.020867 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n313-k71/src/main/src/call_cutting.cpp:74[0m
+mip: row= 593 col= 18931 density= 4.62632%
+mip time= 33.65 s.
+mip status= 6
+update f from 0 to 22.6091
+#########################################################################################
+[32m<Instance: X-n313-k71>
+<Solution>
+<UB= 94043>
+<LB= 94043>
+<Elapsed Time= 51.8>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n313-k71_3_1_0_1_0_0_7_1_0_G32.node deleted successfully.

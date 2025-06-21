@@ -1,0 +1,77 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+VRPSolver v0.6.13, 22/08/2024, © Inria Bordeaux, France, vrpsolver.math.u-bordeaux.fr
+      Corresponds to the solver by Pessoa, Sadykov, Uchoa and Vanderbeck (2020)
+                 Paper: dx.doi.org/10.1007/s10107-020-01523-z
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   BaPCod v0.82.8, 22/08/2024, © Inria Bordeaux, France, bapcod.math.u-bordeaux.fr 
+           THIS CODE IS PROVIDED AS IS, USE IT AT YOUR OWN RISK
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RCSP solver info : symmetric case is detected for graph G_1! 
+Model is built TIME = 0h0m0s4t = 4
+************************************************************************************************
+**** BaB tree root node
+**** Local DB = -1e+12, global bounds : [ -1e+12 , 1616 ], TIME = 0h0m0s4t = 4
+**** 1 open nodes, 0 columns (0 active), 0 dyn. constrs. (0 active), 126 art. vars. (126 active)
+************************************************************************************************
+<DWph=2> <it= 10> <et=0.07> <Mt= 0.00> <Spt= 0.02> <nCl=300> <DB=-10165272.7497> <Mlp=211810.9577> <PB=1616> 
+<DWph=2> <it= 20> <et=0.09> <Mt= 0.00> <Spt= 0.02> <nCl=300> <DB=-1665133.4448> <Mlp=160611.0339> <PB=1616> 
+<DWph=2> <it= 30> <et=0.12> <Mt= 0.01> <Spt= 0.02> <nCl=300> <DB=-958595.7044> <Mlp=37673.3188> <PB=1616> 
+<DWph=2> <it= 40> <et=0.15> <Mt= 0.01> <Spt= 0.02> <nCl=269> <DB=-2641.1104> <Mlp= 2418.3087> <PB=1616> 
+<DWph=2> <it= 50> <et=0.18> <Mt= 0.01> <Spt= 0.02> <nCl=300> <DB=-1247.5691> <Mlp= 1919.1235> <PB=1616> 
+<DWph=2> <it= 60> <et=0.21> <Mt= 0.01> <Spt= 0.02> <nCl=272> <DB=  639.0344> <Mlp= 1629.4127> <PB=1616> 
+<DWph=2> <it= 70> <et=0.24> <Mt= 0.01> <Spt= 0.02> <nCl=160> <DB= 1574.1021> <Mlp= 1586.8147> <PB=1616> 
+<DWph=2> <it= 78> <et=0.26> <Mt= 0.00> <Spt= 0.02> <nCl= 60> <DB= 1585.2016> <Mlp= 1585.2016> <PB=1616> 
+<DWph=1> <it= 80> <et=0.27> <Mt= 0.00> <Spt= 0.01> <nCl= 33> <DB= 1483.9773> <Mlp= 1581.6039> <PB=1616> 
+<DWph=1> <it= 87> <et=0.33> <Mt= 0.01> <Spt= 0.05> <nCl= 38> <DB= 1579.7007> <Mlp= 1579.7007> <PB=1616> 
+<DWph=0> <it= 90> <et=0.37> <Mt= 0.00> <Spt= 0.04> <nCl= 99> <DB= 1579.1286> <Mlp= 1579.1286> <PB=1616> 
+Reduced cost fixing for graph G_1...  TT = 0.028448, pt = 0.005299, dt = 0.023053, ct = 0, ndl = 19138', bdl = 280736', odl = 2871', odf = 45734', lpcb = 559633', cnt = 388167', bdch = 3593097', odch = 160979', lcp = 240319'
+took 0.02 sec., 44178 buck. arcs remain (55.1% from prev., 46.4% from max.)
+Run enumeration... took 0.08 sec. and not succeeded.
+ColGenEvalAlg final dual bound: 1579.13 (rounded: 1580)
+----- Add fac. cuts : CAP(100), max.viol = 0.599342, aver.viol = 0.200485, sep/add took 0.00873069/0.0546229 sec. -----
+2131 columns (2131 active), 100 dyn. constrs. (100 active), 226 art. vars. (226 active)
+<DWph=2> <it=  9> <et=0.61> <Mt= 0.02> <Spt= 0.03> <nCl= 76> <DB= 1592.4013> <Mlp= 1592.4013> <PB=1616> 
+<DWph=1> <it= 10> <et=0.62> <Mt= 0.00> <Spt= 0.00> <nCl= 26> <DB= 1559.9659> <Mlp= 1592.4013> <PB=1616> 
+<DWph=1> <it= 14> <et=0.65> <Mt= 0.01> <Spt= 0.02> <nCl= 21> <DB= 1591.5850> <Mlp= 1591.5850> <PB=1616> 
+<DWph=0> <it= 18> <et=0.69> <Mt= 0.01> <Spt= 0.04> <nCl= 79> <DB= 1591.3670> <Mlp= 1591.3670> <PB=1616> 
+Reduced cost fixing for graph G_1...  TT = 0.018761, pt = 0.0031, dt = 0.015561, ct = 0, ndl = 19202', bdl = 201253', odl = 2921', odf = 51552', lpcb = 240150', cnt = 270238', bdch = 2011891', odch = 193466', lcp = 222885'
+took 0.01 sec., 36611 buck. arcs remain (82.9% from prev., 38.4% from max.)
+Run enumeration... took 0.81 sec. and not succeeded.
+ColGenEvalAlg final dual bound: 1591.37 (rounded: 1592)
+Gap improvement since the last cut separation : 0.331922 (1579.13)
+----- Add fac. cuts : CAP(80), max.viol = 0.5, aver.viol = 0.148013, sep/add took 0.0140925/0.0636234 sec. -----
+2333 columns (2333 active), 180 dyn. constrs. (99 active), 306 art. vars. (225 active)
+<DWph=2> <it= 10> <et=1.70> <Mt= 0.03> <Spt= 0.03> <nCl= 86> <DB= 1601.2299> <Mlp= 1605.1932> <PB=1616> 
+<DWph=2> <it= 13> <et=1.72> <Mt= 0.01> <Spt= 0.02> <nCl=  9> <DB= 1605.1893> <Mlp= 1605.1893> <PB=1616> 
+<DWph=1> <it= 18> <et=1.75> <Mt= 0.01> <Spt= 0.02> <nCl= 23> <DB= 1604.8403> <Mlp= 1604.8403> <PB=1616> 
+<DWph=0> <it= 19> <et=1.76> <Mt= 0.00> <Spt= 0.01> <nCl= 37> <DB= 1604.8403> <Mlp= 1604.8403> <PB=1616> 
+Reduced cost fixing for graph G_1...  TT = 0.008139, pt = 0.001979, dt = 0.00608, ct = 0, ndl = 12671', bdl = 81703', odl = 2351', odf = 34263', lpcb = 168357', cnt = 61722', bdch = 576531', odch = 96775', lcp = 83682'
+took 0 sec., 21044 buck. arcs remain (57.5% from prev., 22.1% from max.)
+Run enumeration... took 0.04 sec. and succeeded! 
+<DWph=2> <it= 20> <et=1.89> <Mt= 0.02> <Spt= 0.00> <nCl=  0> <DB= 1611.2378> <Mlp= 1611.2378> <PB=1616> 
+<DWph=1> <it= 21> <et=1.89> <Mt= 0.00> <Spt= 0.00> <nCl=  0> <DB= 1611.2378> <Mlp= 1611.2378> <PB=1616> 
+<DWph=0> <it= 25> <et=1.92> <Mt= 0.00> <Spt= 0.02> <nCl=185> <DB= 1607.7128> <Mlp= 1607.7128> <PB=1616> 
+Reduced cost fixing for graph G_1...  took 0 sec., done by inspection with 17390 solutions, remains 5154 (29.6%)
+ColGenEvalAlg final dual bound: 1607.71 (rounded: 1608)
+Gap improvement since the last cut separation : 0.663573 (1591.37)
+----- Terminating the node by MIP -----
+************************************************************************************************
+Search is finished, global bounds : [ 1616 , 1616 ], TIME = 0h0m3s53t = 353
+************************************************************************************************
+Statistics :
+        best lower bound : 1616.0 
+        
+        solution time : 3.5303024119999997
+        
+        number of nodes : 1
+        
+        solution value : 0.0
+
+        root lower bound : 1616.0
+
+        root root time : 3.5295040669999995.
+        
+Status : 2.
+
+Message : Better solution doesn't exist..
+

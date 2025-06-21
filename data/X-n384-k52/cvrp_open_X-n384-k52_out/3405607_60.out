@@ -1,0 +1,58 @@
+application type: CVRP
+X-n384-k52_0_2_5_4_0_1_0_G8.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n384-k52
+obtain rcc coefficient time= 0.02 s.
+obtain r1c coefficient time= 1.12 s.
+obtain matrix from triplets time= 0.58 s.
+#########################################################################################
+tree size= 0 lb= 0 ub= 65929
+#########################################################################################
+idx= 1 value= 65874.6 enu= 1
+brc= 264-365 : +
+brc= 23-381 : -
+brc= 185-192 : -
+brc= 317-370 : +
+brc= 158-295 : -
+brc= 176-199 : -
+brc= 145-185 : -
+brc= 129-199 : -
+brc= 11-275 : -
+brc= 7-180 : +
+brc= 185-275 : -
+brc= 29-345 : -
+brc= 45-199 : -
+brc= 0-183 : -
+brc= 163-231 : +
+brc= 185-375 : +
+brc= 49-126 : -
+brc= 136-137 : +
+brc= 11-31 : +
+it= 9   ncol= 3275  ncstr= 1661 mt= 8.6   spt= 0.3   lpval= 65903.4   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 13.65 s.
+-----------------------------------------------------------------------------------------
+delete columns= 534584 remain= 39053
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 5   ncol= 3212  ncstr= 1405 mt= 1.7   spt= 0.0   lpval= 65915.0   ub= 65928.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 23.08 s.
+-----------------------------------------------------------------------------------------
+delete columns= 29779 remain= 9274
+mip: row= 1272 col= 12105 density= 2.17642%
+mip time= 20.11 s.
+mip status= 6
+update f from 0 to 13.0255
+#########################################################################################
+[32m<Instance: X-n384-k52>
+<Solution>
+<UB= 65928>
+<LB= 65928>
+<Elapsed Time= 46.7>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n384-k52_0_2_5_4_0_1_0_G8.node deleted successfully.

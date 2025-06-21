@@ -1,0 +1,127 @@
+application type: CVRP
+X-n313-k71_2_4_0_11_2_0_G32.node
+Set parameter ServerTimeout to value 600
+Set parameter TokenServer to value "grb-ts.ufhpc"
+Set parameter Threads to value 1
+instance name= X-n313-k71
+#########################################################################################
+tree size= 0 lb= 0 ub= 94044
+#########################################################################################
+idx= 1 value= 93994.1 enu= 0
+brc= 50-103 : -
+brc= 76-103 : -
+brc= 49-105 : +
+brc= 164-295 : -
+brc= 62-296 : -
+brc= 126-152 : -
+brc= 109-138 : -
+brc= 57-130 : +
+brc= 70-121 : +
+brc= 145-281 : -
+brc= 250-278 : -
+brc= 164-260 : -
+brc= 6-137 : -
+brc= 9-126 : -
+brc= 18-224 : -
+brc= 4-64 : -
+brc= 18-301 : -
+brc= 32-102 : -
+brc= 207-230 : -
+brc= 207-269 : -
+brc= 19-106 : +
+brc= 74-260 : -
+brc= 147-237 : -
+brc= 6-60 : +
+brc= 7-127 : +
+-----------------------------------------------------------------------------------------
+ ****** Pricing Level: LIGHT HEUR ****** 
+it= 20  ncol= 1383  ncstr= 579  mt= 0.3   spt= 0.4   lpval= 94013.0   ub= 94044.0  
+ ****** Pricing Level: HEAVY HEUR ****** 
+it= 7   ncol= 1551  ncstr= 579  mt= 0.1   spt= 0.4   lpval= 94009.1   ub= 94044.0  
+ ****** Pricing Level: EXACT ****** 
+it= 5   ncol= 1731  ncstr= 579  mt= 0.1   spt= 3.7   lpval= 94007.5   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 9.19 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Run Arc Elimination ****** 
+arc elimination time= 2.37 s.
+previous= 65.3009% maximum= 1.92106%
+eliminate bucket arcs time= 0.39 s.
+obtain jump arcs time= 0.01 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+elapsed time= 12.29 s.
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ ****** Try Enumeration ****** 
+#labels= 129251 #routes= 4
+labeling 1 time= 1.94 s.
+concatenate time= 2.38 s.
+#routes= 134398
+average gap of successful enumeration= 0.000377451
+next try value > 93984.8
+-----------------------------------------------------------------------------------------
+elapsed time= 16.68 s.
+-----------------------------------------------------------------------------------------
+ ****** Process Enumeration Matrix ****** 
+delete non-ele routes lp val= 94008
+recover rank1c lp val= 94008.8
+recover rcc lp val= 94009.6
+obtain rcc coefficient time= 0.03 s.
+obtain r1c coefficient time= 0.23 s.
+obtain matrix from triplets time= 0.21 s.
+delete columns by branch time= 0.00 s.
+columns pending deletion= 329 remain= 134398 col ratio= 0.997552 row ratio= 1
+regenerate enumeration matrix time= 0.00 s.
+-----------------------------------------------------------------------------------------
+elapsed time= 18.29 s.
+-----------------------------------------------------------------------------------------
+it= 6   ncol= 1334  ncstr= 539  mt= 0.1   spt= 0.0   lpval= 94009.0   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 18.41 s.
+-----------------------------------------------------------------------------------------
+delete columns= 53036 remain= 81362
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 4   ncol= 1230  ncstr= 552  mt= 0.1   spt= 0.0   lpval= 94015.7   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 19.09 s.
+-----------------------------------------------------------------------------------------
+delete columns= 50562 remain= 30800
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 4   ncol= 1229  ncstr= 597  mt= 0.0   spt= 0.0   lpval= 94017.9   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 19.68 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 8526 remain= 30800 col ratio= 0.723182 row ratio= 0.835846
+ ****** Separate RCCs ****** 
+ ****** Separate Rank1Cuts ****** 
+it= 3   ncol= 1243  ncstr= 636  mt= 0.0   spt= 0.0   lpval= 94018.7   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 20.00 s.
+-----------------------------------------------------------------------------------------
+delete columns= 11171 remain= 19629
+[1;36m[REMIND] 2: gap improved= 0.772763 ratio= 0.030488 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n313-k71/src/main/src/call_cutting.cpp:74[0m
+ ****** Separate Rank1Cuts ****** 
+it= 2   ncol= 1242  ncstr= 545  mt= 0.0   spt= 0.0   lpval= 94018.8   ub= 94044.0  
+-----------------------------------------------------------------------------------------
+elapsed time= 20.33 s.
+-----------------------------------------------------------------------------------------
+columns pending deletion= 1207 remain= 19629 col ratio= 0.938509 row ratio= 0.922936
+[1;36m[REMIND] 2: gap improved= 0.166635 ratio= 0.006618 threshold= 0.040000 in function increaseCondition2 at /blue/yu.yang1/you.z/route_opt/packages/application/X-n313-k71/src/main/src/call_cutting.cpp:74[0m
+mip: row= 503 col= 19661 density= 4.44196%
+mip time= 28.42 s.
+mip status= 6
+update f from 0 to 25.1795
+#########################################################################################
+[32m<Instance: X-n313-k71>
+<Solution>
+<UB= 94044>
+<LB= 94044>
+<Elapsed Time= 48.8>
+<Nodes Explored= 1>
+<Global Gap= 0%>[0m
+#########################################################################################
+File nodes/X-n313-k71_2_4_0_11_2_0_G32.node deleted successfully.
